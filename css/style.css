@@ -1,15 +1,74 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300i|Roboto&display=swap');
 /*
-font-family: 'Open Sans', sans-serif;
-font-family: 'Roboto', sans-serif;
+#9683EC
+#7630FF
+#7E21D4
+#4B0082
+#21004B
 */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
 
 #logo {
     width: 200px;
 }
 
 body {
-    background: black;
-    color: wheat;
+    background: linear-gradient(to bottom right, rgb(8, 0, 19), black);
+    text-align: center;
+    margin-top: 200px;
 }
 
+img {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    margin: 0;
+    font-family: 'Russo One', sans-serif;
+    color: #7630FF;
+    font-size: 74px;
+}
+
+#indigoTitle {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+#stack {
+    font-size: 80px;
+}
+
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    color: #9683EC;
+}
+
+a, p {
+    font-family: 'Open Sans', sans-serif;
+    color: #7E21D4;
+    text-decoration: none;
+    margin-top: 10px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+}
+
+small {
+    color: #9683EC;
+}
+
+a:hover {
+    color: rgb(115, 89, 231);
+}
