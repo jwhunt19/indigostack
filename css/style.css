@@ -20,13 +20,16 @@ html {
 }
 
 body {
-    background: linear-gradient(to bottom right, rgb(8, 0, 19), black);
+    background: linear-gradient(to bottom right, rgb(8, 0, 20), rgb(0, 0, 0));
     text-align: center;
     margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 img {
-    margin: 0;
+    margin: auto;
     padding: 0;
 }
 
@@ -62,7 +65,7 @@ a, p {
 footer {
     position: absolute;
     width: 100%;
-    bottom: 0;
+    bottom: 2px;
 }
 
 small {
@@ -70,5 +73,40 @@ small {
 }
 
 a:hover {
-    color: rgb(115, 89, 231);
+    color: #7630FF;
 }
+
+@media only screen and (min-width: 300px) and (max-width: 767px){
+    
+    body {
+        margin-top: 70px;
+    }
+
+    #logo {
+        width: 240px;
+    }
+
+    #indigoTitle {
+        align-items: flex-end;
+    }
+
+    h1 {
+        font-size: 42px;
+    }
+
+    #stack {
+        font-size: 48px;
+    }
+
+    h2 {
+        font-size: 1em;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px){
+    
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px){}
+
+@media only screen and (min-width: 992px){}
