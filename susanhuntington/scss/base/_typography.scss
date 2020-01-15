@@ -1,0 +1,15 @@
+body {
+    color: $primaryFontColor;
+    font-size: 1em;
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited{
+  color:$primaryFontColor;
+}

@@ -1,0 +1,14 @@
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 60px auto auto;
+    padding-top: 20px;
+    background: $primCol;
+}
+
+#gallery img {
+    width: 290px;
+    border-radius: 2px;
+    
+}
